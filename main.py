@@ -43,9 +43,11 @@ step = 0
 episode = 0
 ppo_update = 0
 total_reward = 0
+done = True
 
 while True:  # nb episodes
-    env_info = env.reset(train_mode=train_mode, config=config)[default_brain]
+    if done:
+        env_info = env.reset(train_mode=train_mode, config=config)[default_brain]
     obs = env_info.observations[0]
     obs = img_to_tensor(obs)
     while True:  # nb of steps
@@ -55,6 +57,7 @@ while True:  # nb episodes
         #print(action_cuda)
 
         env_info = env.step(action_cuda)[default_brain]
+        done = env_info.local_done[0]
         reward = torch.cuda.FloatTensor([env_info.rewards[0]])
         total_reward += env_info.rewards[0]
 
