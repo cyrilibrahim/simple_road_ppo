@@ -57,6 +57,7 @@ while True:  # nb episodes
         #print(action_cuda)
 
         env_info = env.step(action_cuda)[default_brain]
+        done = env_info.local_done[0]
         reward = torch.cuda.FloatTensor([env_info.rewards[0]])
         total_reward += env_info.rewards[0]
 
