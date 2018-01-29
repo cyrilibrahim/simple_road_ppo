@@ -13,7 +13,7 @@ args = get_args()
 torch.set_default_tensor_type('torch.cuda.FloatTensor')
 
 writer = SummaryWriter(log_dir='logs/circuit')
-env = UnityEnvironment(file_name='circuit2/circuit_2', worker_id=0)
+env = UnityEnvironment(file_name='circuit_linux/circuit', worker_id=0)
 
 
 
