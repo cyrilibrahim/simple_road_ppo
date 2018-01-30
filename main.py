@@ -1,20 +1,24 @@
+import os
 from unityagents import UnityEnvironment
 from tensorboardX import SummaryWriter
 from agent import PPOAgent
 from storage import RolloutStorage
 from utils import img_to_tensor
 import torch
-import numpy as np
 from torch import nn
 from torch.autograd import Variable
 from args import get_args
-import tensorflow as tf
 args = get_args()
 torch.set_default_tensor_type('torch.cuda.FloatTensor')
 
 writer = SummaryWriter(log_dir='logs/circuit')
-env = UnityEnvironment(file_name='circuit_linux/circuit', worker_id=0)
 
+if os.name == 'nt':  # windows
+	binary = os.path.join('cicuit2', 'circuit_2')
+else:
+	binary = 'circuit_linux/circuit_linux.x86_64'
+
+env = UnityEnvironment(file_name=binary, worker_id=0)
 
 
 print(str(env))

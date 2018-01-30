@@ -1,2 +1,123 @@
-1/29/2018 1:19:44 PM
+29/01/2018 4:49:13 PM
  
+Exception
+SocketException: Connection reset by peer
+System.Net.Sockets.Socket.Send (System.Byte[] buf) (at /Users/builduser/buildslave/mono/build/mcs/class/System/System.Net.Sockets/Socket.cs:2777)
+ExternalCommunicator.giveBrainInfo (.Brain brain) (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/ExternalCommunicator.cs:292)
+CoreBrainExternal.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/CoreBrainExternal.cs:58)
+Brain.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Brain.cs:326)
+Academy.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:233)
+Academy.Step () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:205)
+Academy.RunMdp () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:307)
+Academy.FixedUpdate () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:259)
+
+Exception
+SocketException: The socket has been shut down
+System.Net.Sockets.Socket.Send (System.Byte[] buf) (at /Users/builduser/buildslave/mono/build/mcs/class/System/System.Net.Sockets/Socket.cs:2777)
+ExternalCommunicator.giveBrainInfo (.Brain brain) (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/ExternalCommunicator.cs:274)
+CoreBrainExternal.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/CoreBrainExternal.cs:58)
+Brain.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Brain.cs:326)
+Academy.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:233)
+Academy.Step () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:205)
+Academy.RunMdp () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:307)
+Academy.FixedUpdate () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:259)
+
+Exception
+SocketException: The socket has been shut down
+System.Net.Sockets.Socket.Send (System.Byte[] buf) (at /Users/builduser/buildslave/mono/build/mcs/class/System/System.Net.Sockets/Socket.cs:2777)
+ExternalCommunicator.giveBrainInfo (.Brain brain) (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/ExternalCommunicator.cs:274)
+CoreBrainExternal.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/CoreBrainExternal.cs:58)
+Brain.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Brain.cs:326)
+Academy.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:233)
+Academy.Step () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:205)
+Academy.RunMdp () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:307)
+Academy.FixedUpdate () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:259)
+
+Exception
+SocketException: The socket has been shut down
+System.Net.Sockets.Socket.Send (System.Byte[] buf) (at /Users/builduser/buildslave/mono/build/mcs/class/System/System.Net.Sockets/Socket.cs:2777)
+ExternalCommunicator.giveBrainInfo (.Brain brain) (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/ExternalCommunicator.cs:274)
+CoreBrainExternal.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/CoreBrainExternal.cs:58)
+Brain.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Brain.cs:326)
+Academy.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:233)
+Academy.Step () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:205)
+Academy.RunMdp () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:307)
+Academy.FixedUpdate () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:259)
+
+Exception
+SocketException: The socket has been shut down
+System.Net.Sockets.Socket.Send (System.Byte[] buf) (at /Users/builduser/buildslave/mono/build/mcs/class/System/System.Net.Sockets/Socket.cs:2777)
+ExternalCommunicator.giveBrainInfo (.Brain brain) (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/ExternalCommunicator.cs:274)
+CoreBrainExternal.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/CoreBrainExternal.cs:58)
+Brain.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Brain.cs:326)
+Academy.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:233)
+Academy.Step () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:205)
+Academy.RunMdp () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:307)
+Academy.FixedUpdate () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:259)
+
+Exception
+SocketException: The socket has been shut down
+System.Net.Sockets.Socket.Send (System.Byte[] buf) (at /Users/builduser/buildslave/mono/build/mcs/class/System/System.Net.Sockets/Socket.cs:2777)
+ExternalCommunicator.giveBrainInfo (.Brain brain) (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/ExternalCommunicator.cs:274)
+CoreBrainExternal.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/CoreBrainExternal.cs:58)
+Brain.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Brain.cs:326)
+Academy.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:233)
+Academy.Step () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:205)
+Academy.RunMdp () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:307)
+Academy.FixedUpdate () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:259)
+
+Exception
+SocketException: The socket has been shut down
+System.Net.Sockets.Socket.Send (System.Byte[] buf) (at /Users/builduser/buildslave/mono/build/mcs/class/System/System.Net.Sockets/Socket.cs:2777)
+ExternalCommunicator.giveBrainInfo (.Brain brain) (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/ExternalCommunicator.cs:274)
+CoreBrainExternal.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/CoreBrainExternal.cs:58)
+Brain.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Brain.cs:326)
+Academy.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:233)
+Academy.Step () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:205)
+Academy.RunMdp () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:307)
+Academy.FixedUpdate () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:259)
+
+Exception
+SocketException: The socket has been shut down
+System.Net.Sockets.Socket.Send (System.Byte[] buf) (at /Users/builduser/buildslave/mono/build/mcs/class/System/System.Net.Sockets/Socket.cs:2777)
+ExternalCommunicator.giveBrainInfo (.Brain brain) (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/ExternalCommunicator.cs:274)
+CoreBrainExternal.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/CoreBrainExternal.cs:58)
+Brain.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Brain.cs:326)
+Academy.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:233)
+Academy.Step () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:205)
+Academy.RunMdp () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:307)
+Academy.FixedUpdate () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:259)
+
+Exception
+SocketException: The socket has been shut down
+System.Net.Sockets.Socket.Send (System.Byte[] buf) (at /Users/builduser/buildslave/mono/build/mcs/class/System/System.Net.Sockets/Socket.cs:2777)
+ExternalCommunicator.giveBrainInfo (.Brain brain) (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/ExternalCommunicator.cs:274)
+CoreBrainExternal.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/CoreBrainExternal.cs:58)
+Brain.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Brain.cs:326)
+Academy.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:233)
+Academy.Step () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:205)
+Academy.RunMdp () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:307)
+Academy.FixedUpdate () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:259)
+
+Exception
+SocketException: The socket has been shut down
+System.Net.Sockets.Socket.Send (System.Byte[] buf) (at /Users/builduser/buildslave/mono/build/mcs/class/System/System.Net.Sockets/Socket.cs:2777)
+ExternalCommunicator.giveBrainInfo (.Brain brain) (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/ExternalCommunicator.cs:274)
+CoreBrainExternal.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/CoreBrainExternal.cs:58)
+Brain.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Brain.cs:326)
+Academy.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:233)
+Academy.Step () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:205)
+Academy.RunMdp () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:307)
+Academy.FixedUpdate () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:259)
+
+Exception
+SocketException: The socket has been shut down
+System.Net.Sockets.Socket.Send (System.Byte[] buf) (at /Users/builduser/buildslave/mono/build/mcs/class/System/System.Net.Sockets/Socket.cs:2777)
+ExternalCommunicator.giveBrainInfo (.Brain brain) (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/ExternalCommunicator.cs:274)
+CoreBrainExternal.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/CoreBrainExternal.cs:58)
+Brain.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Brain.cs:326)
+Academy.SendState () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:233)
+Academy.Step () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:205)
+Academy.RunMdp () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:307)
+Academy.FixedUpdate () (at C:/Users/Bureau/Desktop/Driving_simulator_repo/driving-simulator/Assets/ML-Agents/Scripts/Academy.cs:259)
+
