@@ -28,7 +28,7 @@ agent = PPOAgent()
 agent.model = agent.model.cuda()
 load_weights = True
 if(load_weights):
-    agent.model.load_state_dict(torch.load("saved_weights/saved_model_ppo_epoch_23040"))
+    agent.model.load_state_dict(torch.load("pretrained_weights/saved_model_ppo_epoch_23040"))
 
 optimizer = torch.optim.Adam(agent.parameters(), lr=args.lr)
 
