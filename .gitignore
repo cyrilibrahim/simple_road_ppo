@@ -1,7 +1,7 @@
 logs/
 .idea/
 saved_weights/*
-!saved_weigths
+!saved_weigths/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
