@@ -17,6 +17,6 @@ chmod u+x circuit_linux/circuit_linux.x86_64
 
 ```
 sinter -c 2 --mem=16000 --gres=gpu --reservation=res_stretch
-LD_LIBRARY_PATH=/Tmp/lisa/os_v5/lib/glx:$LD_LIBRARY_PATH xvfb-run -n $SLURM_JOB_ID -s "-screen 0 1024x768x24 -ac +extension GLX +render -noreset" ./circuit_linux/circuit_linux.x86_64
+LD_LIBRARY_PATH=/Tmp/lisa/os_v5/lib/glx:$LD_LIBRARY_PATH xvfb-run -n $SLURM_JOB_ID -s "-screen 0 1024x768x24 -ac +extension GLX +render -noreset" ./circuit_linux/circuit_linux.x86_64 &
 python main.py
 ```
