@@ -2,6 +2,8 @@
 
 ## Installation
 
+You'll need git lfs: https://github.com/git-lfs/git-lfs/wiki/Installation
+
 ```
 git clone https://github.com/Unity-Technologies/ml-agents/
 cd ml-agents/python
